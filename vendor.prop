@@ -198,6 +198,7 @@ vendor.display.normal_noc_efficiency_factor=0.85
 vendor.display.secure_preview_buffer_format=420_sp
 vendor.display.use_layer_ext=0
 vendor.display.use_smooth_motion=0
+vendor.display.disable_rotator_downscale=1
 vendor.gralloc.disable_ubwc=0
 vendor.gralloc.enable_fb_ubwc=1
 vendor.gralloc.secure_preview_buffer_format=420_sp
