@@ -9,5 +9,7 @@ soong_namespace {
         "hardware/google/interfaces",
         "hardware/google/pixel",
         "hardware/xiaomi",
-    ]
+        "vendor/qcom/opensource/commonsys/packages/apps/Bluetooth",
+        "vendor/qcom/opensource/commonsys/system/bt",
+    ],
 }
