@@ -410,6 +410,7 @@ on boot
 
     # Touchpanel
     chown system system /sys/touchpanel/double_tap
+    chmod 0660 /sys/touchpanel/double_tap
 
 service dcvs-sh /vendor/bin/init.qti.dcvs.sh
     class late_start
