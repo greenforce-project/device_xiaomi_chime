@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_chime.mk
+    $(LOCAL_DIR)/xperience_chime.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_chime-user \
-    lineage_chime-userdebug \
-    lineage_chime-eng
+    xperience_chime-user \
+    xperience_chime-userdebug \
+    xperience_chime-eng

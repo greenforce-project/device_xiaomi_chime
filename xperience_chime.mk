@@ -11,11 +11,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from chime device
 $(call inherit-product, device/xiaomi/chime/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common xperience stuff.
+$(call inherit-product, vendor/xperience/config/common.mk)
+
+# Build with quick tap support
+TARGET_SUPPORTS_QUICK_TAP := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_chime
+PRODUCT_NAME := xperience_chime
 PRODUCT_DEVICE := chime
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := SM6115
