@@ -4,14 +4,14 @@ hal_client_domain(hal_camera_default, hal_configstore)
 
 allow hal_camera_default {
   mnt_vendor_file
-  vendor_persist_camera_file
+  camera_persist_file
   vendor_persist_sensors_file
   vendor_sysfs_kgsl
 }:dir r_dir_perms;
 
 allow hal_camera_default {
   mnt_vendor_file
-  vendor_persist_camera_file
+  camera_persist_file
   vendor_persist_sensors_file
   vendor_sysfs_kgsl
 }:{ 
