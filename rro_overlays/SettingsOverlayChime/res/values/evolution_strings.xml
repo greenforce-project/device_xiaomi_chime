@@ -6,7 +6,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- ROM maintainer name -->
-    <string name="build_maintainer_summary">Ryyaap (@rktdnt)</string>
-    <string name="build_maintainer_telegram">https://t.me/rktdnt</string>
+    <string name="build_maintainer_summary">ryyaap. (unlstedd)</string>
+    <string name="build_maintainer_telegram">https://t.me/unlsted</string>
 
 </resources>
