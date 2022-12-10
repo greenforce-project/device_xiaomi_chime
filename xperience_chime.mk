@@ -14,11 +14,9 @@ $(call inherit-product, device/xiaomi/chime/device.mk)
 # Inherit some common Xperience Project Flags.
 $(call inherit-product, vendor/xperience/config/common.mk)
 WITH_GMS := true
-TARGET_GAPPS_ARCH := arm64
-TARGET_BOOT_ANIMATION_RES := 720
+TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_INCLUDE_PIXEL_CHARGER := true
-TARGET_FACE_UNLOCK_SUPPORTED := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := xperience_chime
